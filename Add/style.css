@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+* {
+    font-family: Merriweather, sans-serif;
+
+}
+
+body {
+    background: url('/image/stacked-waves-haikei\ \(1\).png') scroll no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 3% 3%;
+    width: 90%;
+    background-color: white;
+    border-radius: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form-control {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.input-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.submit-btn {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    border: 1px solid dodgerblue;
+}
+
+.submit-btn:hover {
+    background-color: #6198FF;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+
+}

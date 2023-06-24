@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>CREATE TASK</h1>
+        <form class="form-control">
+            <div class="input-area">
+                <label for="title" class="form-label">Title</label>
+                <textarea></textarea>
+            </div>
+            <div class="input-area">
+                <label for="description" class="form-label">Description</label>
+                <textarea rows="10"></textarea>
+            </div>
+            <div class="input-area">
+                <label for="deadline">Deadline</label>
+                <input type="datetime-local" id="deadline" name="deadline">
+            </div>
+            <a href="#">
+                <button type="submit" class="btn submit-btn">Add</button>
+            </a>
+            <a href="#">
+                <button class="btn">Cancel</button>
+            </a>
+        </form>
+
+    </div>
+</body>
+
+</html>

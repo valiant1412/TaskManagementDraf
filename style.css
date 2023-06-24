@@ -30,11 +30,16 @@ body {
 }
 
 .add-btn {
-    background-color: #6198FF;
+    background-color: dodgerblue;
     border: none;
     border-radius: 10px;
     padding: 10px;
     color: white;
+}
+
+.add-btn:hover,
+.direction:hover {
+    background-color: #6198FF;
 }
 
 h2 {
@@ -82,11 +87,11 @@ h2 {
 .task {
     position: relative;
     font-size: 14px;
-    background-color: #6198FF;
+    background-color: dodgerblue;
     color: white;
     border-radius: 16px;
     text-align: center;
-    border: 2px solid #6198FF;
+    border: 2px solid dodgerblue;
 }
 
 .expire {
@@ -131,7 +136,7 @@ h2 {
 }
 
 .direction {
-    background-color: #6198FF;
+    background-color: dodgerblue;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -140,4 +145,9 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.fa-pencil,
+.fa-trash {
+    cursor: pointer;
 }
